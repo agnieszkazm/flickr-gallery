@@ -5,7 +5,7 @@ $(document).ready(function(){
       $figure = $('figure'),
       $close = $('.close');
 
-var flickrAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+var flickrAPI = "https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
  $.getJSON( flickrAPI, {
 	tags: "animals",
 	format: "json"
